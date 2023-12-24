@@ -1,0 +1,173 @@
+/* header section  */
+@media(max-width: 965px) {
+    .search-bar-sect {
+        display: none;
+    }
+
+    .details-sect .voice-over {
+        display: flex;
+    }
+
+
+}
+
+@media(max-width: 865px) {
+    header .bar i {
+        display: none;
+    }
+
+    .side-bar .side-icn i {
+        padding: 10px;
+    }
+
+    .content-vdo-cont {
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 200px;
+    }
+
+    .select-texts {
+        padding: 0 20px;
+    }
+
+    .side-bar {
+        display: flex;
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+        background: white;
+        z-index: 999;
+        justify-content: space-around;
+        height: 50px;
+        border-top: 2px solid rgb(71, 67, 67);
+    }
+
+    .vdo-items {
+        width: 70vw;
+        margin: auto;
+    }
+
+    .side-bar .side-icn li {
+        display: none;
+    }
+
+    .side-bar .dowload {
+        display: none;
+    }
+
+    .side-bar .liked {
+        display: none;
+    }
+}
+
+@media(max-width: 679px) {
+    .content-vdo-cont {
+        padding-right: 360px;
+    }
+}
+
+@media(max-width: 575px) {
+    .content-vdo-cont {
+        padding-right: 430px;
+    }
+}
+
+@media(max-width: 516px) {
+    .content-vdo-cont {
+        padding-right: 500px;
+    }
+}
+
+@media(max-width: 510px) {
+    .vdo-items {
+        width: 90vw;
+        margin: auto;
+    }
+
+    .content-vdo-cont {
+        padding-right: 550px;
+    }
+}
+
+@media(max-width: 474px) {
+
+    .content-vdo-cont {
+        padding-right: 600px;
+    }
+}
+
+@media(max-width: 433px) {
+    .vdo-items {
+        margin: 0;
+    }
+
+    .content-vdo-cont {
+        padding-left: 10px;
+    }
+
+    .vdo-items .main-img {
+        height: 197px !important;
+    }
+}
+
+@media(max-width: 380px) {
+    .vdo-items {
+        width: 99.90vw;
+    }
+
+    .content-vdo-cont {
+        padding-left: 0px;
+    }
+
+    .vdo-items .main-img {
+        border-radius: 2px;
+    }
+}
+
+
+
+
+
+/* ========== ======= Starting video playing Page ========= = ==== */
+@media(max-width: 806px) {
+    .play-video-cont {
+        flex-direction: column;
+    }
+
+    .video-playing {
+        width: 100%;
+    }
+
+    .vdo-r-items {
+        justify-content: flex-start;
+        column-gap: 40px !important;
+        margin-bottom: 20px !important;
+    }
+
+    
+} 
+
+@media(max-width: 572px) {
+    .channel-info {
+        flex-direction: column !important;
+    }
+
+    .channel-detail {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .share-icns {
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 14px;  
+    }  
+}
+
+@media(max-width: 500px) { 
+    .vdo-r-items {
+        column-gap: 10px !important;
+    }  
+}
+
+/* ========== ======= Ending video playing Page ========= = ==== */

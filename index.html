@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+           
+    <div class="body_overlay"></div>  
+    <!-- Starting Header Section  -->
+    <header>
+        <div class="logo-sect flex-box">
+            <div class="bar" id="bar-icn">
+                <i class="fa-solid fa-bars  flex-box"></i>
+            </div>
+            <div class="youtube-logo">
+                <a href="http://127.0.0.1:3000/index.html"> <img
+                        src="https://www.gstatic.com/youtube/img/promos/growth/0dc7cce1122b263886588b9936ef531723b5580eac8efd77bdeb97b4c09d40e1_244x112.webp"
+                        style="cursor: pointer;"></a>
+            </div>
+        </div>
+
+        <div class="search-bar-sect flex-box">
+            <div class="input-box flex-box">
+                <img src="https://icon-library.com/images/svg-search-icon/svg-search-icon-15.jpg" alt="" srcset=""
+                    class="search-icn-img">
+                <input type="search" placeholder="Search">
+            </div>
+            <div class="main-srch-icn flex-box">
+                <img src="https://icon-library.com/images/svg-search-icon/svg-search-icon-15.jpg" alt="" srcset=""
+                    class="search-icn2-2">
+            </div>
+            <div class="voice-icn flex-box flex">   
+                <i class="fa-solid fa-microphone" style="cursor: pointer;"></i>
+            </div>
+        </div>
+       
+        
+        <div class="details-sect flex-box">        
+            <div class="crate-icn d-icn flex-box voice-over flex">   
+                <i class="fa-solid fa-microphone voice-over" style="cursor: pointer;"></i>
+            </div>
+
+            <div class="crate-icn d-icn flex-box">
+                <i class="fa-solid fa-video"></i>
+            </div>
+            <div class="noti-icn d-icn flex-box">
+                <i class="fa-regular fa-bell"></i>
+            </div>
+            <div class="account-icn d-icn flex-box">
+                <i class="fa-regular fa-user"></i>
+            </div>
+        </div>
+    </header>  
+    <!-- Ending Header Section  -->
+
+
+
+    <!-- Starting main area  -->
+    <div id="main-area" class="flex">
+
+        <div class="side-bar">
+            <div class="side-icn">
+                <i class="fa-solid fa-house flex-box"></i>
+                <li>Home</li>
+            </div>
+
+            <div class="side-icn">
+                <i class="fa-brands fa-youtube  flex-box"></i>
+                <li>Subscriptions</li>
+            </div>
+            <div class="side-icn">
+                <i class="fa-solid fa-book  flex-box"></i>
+                <li>Library</li>
+            </div>
+            <div class="side-icn dowload">
+                <i class="fa-solid fa-download  flex-box"></i>
+                <li>Dowloads</li>
+            </div>
+            <div class="side-icn liked">
+                <i class="fa-solid fa-thumbs-up  flex-box"></i>
+                <li>Liked</li>
+            </div>
+        </div> 
+        <div class="main-sidebar">   
+            <div class="top-item flex flex-center" style="gap: 25px;">     
+                <div class="m-b-icn">    
+                    <i class="fa-solid fa-bars d-icn  flex-box" id="close_sidebar"></i>
+                </div>   
+                <div class="youtube-logo">
+                    <a href="http://127.0.0.1:3000/index.html"> <img
+                            src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-0.png"
+                            style="cursor: pointer; height: 30px; object-fit:cover;"></a>
+                </div>
+            </div>
+            <div class="option-menu">
+                <li class="flex-box active"> <i class="fa-solid fa-house flex-box"></i> <span>Home</span></li>
+                <li class="flex-box"> <i class="fa-brands fa-youtube  flex-box"></i> <span>Subscriptions</span></li>
+                <li class="flex-box"> <i class="fa-solid fa-book  flex-box"></i> <span>Library</span></li>
+                <li class="flex-box"> <i class="fa-solid fa-download  flex-box"></i> <span>Dowloads</span></li>
+                <li class="flex-box"><i class="fa-solid fa-house flex-box"></i> <span>Liked</span></li>
+            </div>
+            <hr>
+
+            <div class="option-menu">
+                <h3 style="margin:10px 0 10px 20px;">You</h3> <i class="fa fa-solid fa-down"></i>
+                <li class="flex-box"><i class="fa-regular fa-user"></i><span>Your channel</span></li>
+                <li class="flex-box"><i class="fa-brands fa-youtube  flex-box"></i> <span>Your videos</span></li>
+                <li class="flex-box"><i class="fa-solid fa-book  flex-box"></i><span>History</span></li>
+            </div>
+            <hr>
+    
+            <div class="option-menu">
+                <h3 style="margin:10px 0 10px 20px;">Subscriptions</h3> <i class="fa fa-solid fa-down"></i>     
+                <li class="flex-box"><img src="https://yt3.ggpht.com/ZhXrPzcpLJxFRu21_fawmLWkwUoAWb3DSe04Ey-9sTXwBDnj22bH5217PQOCsRp7dWJf41aa=s88-c-k-c0x00ffffff-no-rj" alt=""><span>Physic Wallah</span></li>
+                <li class="flex-box"><img src="https://yt3.ggpht.com/hOjIwgscUK4tReZDXS9M8-KMuZD96wsYoVRJOHa9Qi9QXTbyBRrTY9oD3btST105RV6zmFQQ6yU=s88-c-k-c0x00ffffff-no-rj"> <span>Vedantu 9 & 10</span></li>
+                <li class="flex-box"><img src="https://yt3.ggpht.com/2s-s-5PcAVak52twYVU1kc3kVOceApl8qz1TnqqGHejsltVZjjZun15NXexIjI87V4ohZ62P=s88-c-k-c0x00ffffff-no-rj">  <span>Learn with madhu</span></li>
+                <li class="flex-box"><img src="https://yt3.ggpht.com/BioTdVUK_7Zb5cqjRcko6D9cT3-6ZnxH2zUtaQhtEPUnOImETqWhcqRFl4Q9T91l1U6QbCb9=s88-c-k-c0x00ffffff-no-rj"> <span>UDDAAN</span></li>
+            </div>      
+            <hr>             
+     
+        </div>           
+
+        <div class="main-content">
+
+            <div class="select-texts flex-box">
+                <div class="tx-item all">All</div>
+                <div class="tx-item">HTML</div>
+                <div class="tx-item">Javascript</div>
+                <div class="tx-item">CSS</div>
+                <div class="tx-item">Hacking</div>
+                <div class="tx-item">Frontend Developer</div>
+                <div class="tx-item">Programming</div>
+                <div class="tx-item">Machine Learning</div>
+                <div class="tx-item">Data Bases</div>
+            </div>
+     
+            <div class="content-vdo-cont">
+                <div class="vdo-items"  onclick="window.location.href='playVideo.html'">  
+                    <img src="images/th-1.webp" class="main-img">
+                    <div class="img-content">
+                        <div class="channel"><img
+                                src="https://yt3.ggpht.com/SsDtsrN77hVqN1WpWOiNF04KU851k1ZXsWx4e1wQzmV-76qfAThYR3K4cElX7mnnc2eZBoCYOpg=s68-c-k-c0x00ffffff-no-rj"
+                                alt="not found"></div>
+                        <div class="main-ch-txt">
+                            <div class="img-title">How make youtube thumbnails? | Making a youtube thumbnails in just 3
+                                minutes</div>
+                            <div class="channel-name flex">Aman Raj <i class="fa-solid fa-check flex-box"></i> </div>
+                            <div class="duration">55k views 4 day ago</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="vdo-items"  onclick="window.location.href='playVideo.html'">
+                    <img src="images/th-2.webp" class="main-img">
+                    <div class="img-content">
+                        <div class="channel"><img
+                                src="https://yt3.ggpht.com/eu051krrRNQMMi5h6ynfnvhFJzxzSKulJQ42g5v72MQ9Bvv8KdpNIa6yM-0iGpnDgSF0itAD=s68-c-k-c0x00ffffff-no-rj">
+                        </div>
+                        <div class="main-ch-txt">
+                            <div class="img-title">How make youtube thumbnails? | Making a youtube thumbnails in just 3
+                                minutes</div>
+                            <div class="channel-name flex">Aman Raj <i class="fa-solid fa-check flex-box"></i> </div>
+                            <div class="duration">55k views 4 day ago</div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="vdo-items"  onclick="window.location.href='playVideo.html'">
+                    <img src="images/th-3.webp" class="main-img">
+                    <div class="img-content">
+                        <div class="channel"><img
+                                src="https://yt3.ggpht.com/LnD0yL5NAb8yvZu2d25qLZ-oAehUISz9tfe3aN36syGqTKbs4irbPeVUJfNlmVFRzel7KHV3-uo=s68-c-k-c0x00ffffff-no-rj">
+                        </div>
+                        <div class="main-ch-txt">
+                            <div class="img-title">How make youtube thumbnails? | Making a youtube thumbnails in just 3
+                                minutes</div>
+                            <div class="channel-name flex">Aman Raj <i class="fa-solid fa-check flex-box"></i> </div>
+                            <div class="duration">55k views 4 day ago</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="vdo-items"  onclick="window.location.href='playVideo.html'">
+                    <img src="images/th-4.jpg" class="main-img">
+                    <div class="img-content">
+                        <div class="channel"><img
+                                src="https://yt3.ggpht.com/ytc/APkrFKZFBxCrR0qP0pgqiUwQk72kug1MOtybKPPqNB54zA=s68-c-k-c0x00ffffff-no-rj">
+                        </div>
+                        <div class="main-ch-txt">
+                            <div class="img-title">How make youtube thumbnails? | Making a youtube thumbnails in just 3
+                                minutes</div>
+                            <div class="channel-name flex">Aman Raj <i class="fa-solid fa-check flex-box"></i> </div>
+                            <div class="duration">55k views 4 day ago</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="vdo-items"  onclick="window.location.href='playVideo.html'">
+                    <img src="images/th-5.webp" class="main-img">
+                    <div class="img-content">
+                        <div class="channel"><img
+                                src="https://yt3.ggpht.com/ytc/APkrFKYjWEcxIfNrPb2POd6mfjuVjkx40Aqun893SNtl8A=s68-c-k-c0x00ffffff-no-rj">
+                        </div>
+                        <div class="main-ch-txt">
+                            <div class="img-title">How make youtube thumbnails? | Making a youtube thumbnails in just 3
+                                minutes</div>
+                            <div class="channel-name flex">Aman Raj <i class="fa-solid fa-check flex-box"></i> </div>
+                            <div class="duration">55k views 4 day ago</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vdo-items"  onclick="window.location.href='playVideo.html'">
+                    <img src="images/th-6.jpeg" class="main-img">
+                    <div class="img-content">
+                        <div class="channel"><img
+                                src="https://yt3.ggpht.com/ytc/APkrFKYjWEcxIfNrPb2POd6mfjuVjkx40Aqun893SNtl8A=s68-c-k-c0x00ffffff-no-rj">
+                        </div>
+                        <div class="main-ch-txt">
+                            <div class="img-title">How make youtube thumbnails? | Making a youtube thumbnails in just 3
+                                minutes</div>
+                            <div class="channel-name flex">Aman Raj <i class="fa-solid fa-check flex-box"></i> </div>
+                            <div class="duration">55k views 4 day ago</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="vdo-items"  onclick="window.location.href='playVideo.html'">
+                    <img src="images/th-7.jpg" class="main-img">
+                    <div class="img-content">
+                        <div class="channel"><img
+                                src="https://yt3.ggpht.com/ytc/APkrFKYjWEcxIfNrPb2POd6mfjuVjkx40Aqun893SNtl8A=s68-c-k-c0x00ffffff-no-rj">
+                        </div>
+                        <div class="main-ch-txt">
+                            <div class="img-title">How make youtube thumbnails? | Making a youtube thumbnails in just 3
+                                minutes</div>
+                            <div class="channel-name flex">Aman Raj <i class="fa-solid fa-check flex-box"></i> </div>
+                            <div class="duration">55k views 4 day ago</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="vdo-items"  onclick="window.location.href='playVideo.html'">
+                    <img src="images/th-8.jpeg" class="main-img">
+                    <div class="img-content">
+                        <div class="channel"><img
+                                src="https://yt3.ggpht.com/ytc/APkrFKYjWEcxIfNrPb2POd6mfjuVjkx40Aqun893SNtl8A=s68-c-k-c0x00ffffff-no-rj">
+                        </div>
+                        <div class="main-ch-txt">
+                            <div class="img-title">How make youtube thumbnails? | Making a youtube thumbnails in just 3
+                                minutes</div>
+                            <div class="channel-name flex">Aman Raj <i class="fa-solid fa-check flex-box"></i> </div>
+                            <div class="duration">55k views 4 day ago</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="vdo-items"  onclick="window.location.href='playVideo.html'">
+                    <img src="images/th-9.webp" class="main-img">
+                    <div class="img-content">
+                        <div class="channel"><img
+                                src="https://yt3.ggpht.com/ytc/APkrFKYjWEcxIfNrPb2POd6mfjuVjkx40Aqun893SNtl8A=s68-c-k-c0x00ffffff-no-rj">
+                        </div>
+                        <div class="main-ch-txt">
+                            <div class="img-title">How make youtube thumbnails? | Making a youtube thumbnails in just 3
+                                minutes</div>
+                            <div class="channel-name flex">Aman Raj <i class="fa-solid fa-check flex-box"></i> </div>
+                            <div class="duration">55k views 4 day ago</div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Ending main area  -->  
+    <script src="script.js"> </script>
+
+</body>
+
+</html>
